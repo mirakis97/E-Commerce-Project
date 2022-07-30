@@ -1,4 +1,5 @@
 import data from "../Data/data";
+
 function HomeScreen() {
   return (
     <div>
