@@ -1,9 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomeScreen from "./componets/Home/HomeScreen";
-import ProdcutSlug from "./componets/Products/ProductSlug";
+import ProdcutScreen from "./componets/Products/ProductScreen";
 import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
 import {LinkContainer} from 'react-router-bootstrap'
+
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <div className="d-flex flex-column site-App">
         <header className="App-header">
         <Navbar>
-          <Container>
+          <Container className="container-nav">
             <LinkContainer to="/">
               <Navbar.Brand>Shopyfly</Navbar.Brand>
             </LinkContainer>
@@ -19,9 +20,9 @@ function App() {
         </Navbar>
         </header>
         <main>
-        <Container>
+        <Container className="mt-3">
           <Routes>
-            <Route path="/product/:slug" element={<ProdcutSlug />} />
+            <Route path="/product/:slug" element={<ProdcutScreen />} />
             <Route path="/" element={<HomeScreen />} />
           </Routes>
           </Container>
