@@ -21,6 +21,13 @@ header a {
 main{
   flex: 1;
 }
+.rating span{
+  color: orange;
+}
+.btn-primary{
+  background-color: greenyellow;
+  color: black;
+}
 .products{
   display: flex;
   flex-wrap: wrap;
