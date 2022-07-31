@@ -6,7 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.site-App{
+  min-height: 100vh;
+}
 header {
   background-color: greenyellow;
   padding: 1rem;
@@ -17,7 +19,7 @@ header a {
   text-decoration: none;
 }
 main{
-  padding: 1rem;
+  flex: 1;
 }
 .products{
   display: flex;
