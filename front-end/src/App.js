@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import { Badge, Nav } from "react-bootstrap";
 import { useContext } from "react";
 import { Store } from "./componets/Cart/Store";
+import Cart from "./componets/Cart/Cart";
 
 function App() {
   const { state, dispatch: ctxDispatch } = useContext(Store);
@@ -38,6 +39,7 @@ function App() {
           <Container className="mt-3">
             <Routes>
               <Route path="/product/:slug" element={<ProdcutScreen />} />
+              <Route path="/cart" element={<Cart />} />
               <Route path="/" element={<HomeScreen />} />
             </Routes>
           </Container>

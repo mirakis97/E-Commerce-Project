@@ -1,8 +1,8 @@
 import axios from "axios";
 import { useContext, useEffect, useReducer } from "react";
 import { Row, Col, ListGroup, Card, Badge, Button } from "react-bootstrap";
-import { Helmet } from "react-helmet-async";
-import { useParams } from "react-router-dom";
+//import { Helmet } from "react-helmet-async";
+import { useNavigate, useParams } from "react-router-dom";
 import { getError } from "../../utils";
 import { Store } from "../Cart/Store";
 import LoadingBox from "../common/LoadingBox";
@@ -24,7 +24,7 @@ const reducer = (state, action) => {
 function ProdcutScreen() {
   const params = useParams();
   const { slug } = params;
-
+  const navigate = useNavigate()
   const [{ loading, error, product }, dispatch] = useReducer(reducer, {
     product: [],
     loading: true,
@@ -59,6 +59,7 @@ function ProdcutScreen() {
       type: "CART_ADD_ITEM",
       payload: { ...product, quantity },
     });
+    navigate('/cart')
   };
   return loading ? (
     <LoadingBox />

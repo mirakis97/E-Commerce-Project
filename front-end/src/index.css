@@ -47,3 +47,6 @@ main{
 .img-large{
   max-width: 100%;
 }
+.img-thumbmail {
+  height: 80px;
+}
