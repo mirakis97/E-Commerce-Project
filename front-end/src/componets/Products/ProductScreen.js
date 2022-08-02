@@ -24,7 +24,7 @@ const reducer = (state, action) => {
 function ProdcutScreen() {
   const params = useParams();
   const { slug } = params;
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   const [{ loading, error, product }, dispatch] = useReducer(reducer, {
     product: [],
     loading: true,
@@ -50,16 +50,15 @@ function ProdcutScreen() {
     const { data } = await axios.get(`/api/products/${product._id}`);
 
     if (data.countInStock < quantity) {
-        window.alert('Sorry,the product is out of stock !');
-        return;
+      window.alert("Sorry,the product is out of stock !");
+      return;
     }
-
 
     ctxDispatch({
       type: "CART_ADD_ITEM",
       payload: { ...product, quantity },
     });
-    navigate('/cart')
+    navigate("/cart");
   };
   return loading ? (
     <LoadingBox />
