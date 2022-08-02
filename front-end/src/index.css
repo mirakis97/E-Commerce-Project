@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.site-App{
+.site-App {
   min-height: 100vh;
 }
 header {
@@ -18,35 +18,38 @@ header a {
   font-weight: bold;
   text-decoration: none;
 }
-main{
+main {
   flex: 1;
 }
-.rating span{
+.rating span {
   color: orange;
 }
-.btn-primary{
+.btn-primary {
   background-color: greenyellow;
   color: black;
 }
-.products{
+.products {
   display: flex;
   flex-wrap: wrap;
 }
-.product{
+.product {
   border: 1px black solid;
   margin: 1rem;
   justify-content: center;
 }
-.product img{   
-    width: 100%;
-    max-width: 400px;
+.product img {
+  width: 100%;
+  max-width: 400px;
 }
-.thumbs{
+.thumbs {
   padding: 1rem;
 }
-.img-large{
+.img-large {
   max-width: 100%;
 }
 .img-thumbmail {
   height: 80px;
+}
+.small-container {
+  max-width: 600px;
 }
