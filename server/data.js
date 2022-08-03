@@ -1,7 +1,6 @@
 const data = {
   products: [
     {
-      _id: '1',
       name: "Nike Shirt",
       slug: "nike-shirt",
       category: "Shirt",
@@ -14,7 +13,6 @@ const data = {
       description: "High quality t-shirt",
     },
     {
-      _id: '2',
       name: "Adidas Fit Shirt",
       slug: "adidas-fit-shirt",
       category: "Shirt",
@@ -27,7 +25,6 @@ const data = {
       description: "High quality t-shirt",
     },
     {
-      _id: '3',
       name: "Nike Slim Pant",
       slug: "nike-slim-pant",
       category: "Pants",
@@ -40,7 +37,6 @@ const data = {
       description: "High quality pants",
     },
     {
-      _id: '4',
       name: "Adidas Fit Pant",
       slug: "adidas-fit-pant",
       category: "Pants",
