@@ -1,7 +1,6 @@
 import Product from '../Products/Product'
 import axios from "axios";
 import { useEffect, useReducer /*useState */ } from "react";
-//import data from "../Data/data";
 import logger from "use-reducer-logger";
 import {Row,Col}from 'react-bootstrap'
 import { Helmet } from 'react-helmet-async';
@@ -27,7 +26,6 @@ function HomeScreen() {
     loading: true,
     error: "",
   });
-  //const [products, setProducts] = useState([]);
   useEffect(() => {
     const fetcData = async () => {
       dispatch({ type: "FETCH_REQUEST" });
@@ -37,7 +35,7 @@ function HomeScreen() {
       } catch (err) {
         dispatch({ type: "FETCH_FAIL", payload: err.message });
       }
-      //setProducts(result.data);
+      
     };
     fetcData();
   }, []);
