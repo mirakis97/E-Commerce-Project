@@ -8,6 +8,8 @@ import { Store } from "../Cart/Store";
 import LoadingBox from "../common/LoadingBox";
 import MessageBox from "../common/MessageBox";
 import Rating from "./Rating";
+
+
 const reducer = (state, action) => {
   switch (action.type) {
     case "FETCH_REQUEST":
