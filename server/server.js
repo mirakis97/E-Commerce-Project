@@ -10,7 +10,7 @@ import userRouter from "./routes/userRoutes.js";
 
 dotenv.config();
 
-mongoose.connect(process.env.MONGODB_URI).then(() =>{
+mongoose.connect("mongodb://localhost:27017/Shopifly").then(() =>{
     console.log('connected to db');
 })
 .catch((err) =>{
