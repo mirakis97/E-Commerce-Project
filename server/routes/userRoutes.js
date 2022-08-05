@@ -5,9 +5,10 @@ import bcrypt from "bcryptjs";
 import { generateToken } from "../utils.js";
 
 const userRouter = express.Router();
-
+debugger;
 userRouter.post(
     '/signin',
+    
     expressAsyncHandler(async (req, res) => {
       const user = await User.findOne({ email: req.body.email });
       if (user) {
