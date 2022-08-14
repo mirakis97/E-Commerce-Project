@@ -102,7 +102,7 @@ function App() {
                   </Link>
                   {userInfo ? (
                     <NavDropdown title={userInfo.name} id="basic-nav-dropdown">
-                      <LinkContainer to="/profile">
+                      <LinkContainer to="/userProfile">
                         <NavDropdown.Item>User Profile</NavDropdown.Item>
                       </LinkContainer>
                       <LinkContainer to="/orderhistory">
@@ -175,7 +175,7 @@ function App() {
               <Route path="/signin" element={<SigninScreen />} />
               <Route path="/signup" element={<SignupScreen />} />
               <Route
-                path="/profile"
+                path="/userProfile"
                 element={
                   <ProtectedRoute>
                     <ProfileScreen />

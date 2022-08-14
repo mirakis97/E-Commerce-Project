@@ -1,0 +1,19 @@
+{
+  "name": "e-commerce-website",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirakis97/E-Commerce-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mirakis97/E-Commerce-Project/issues"
+  },
+  "homepage": "https://github.com/mirakis97/E-Commerce-Project#readme"
+}

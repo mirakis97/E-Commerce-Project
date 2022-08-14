@@ -37,11 +37,12 @@ export default function ProfileScreen() {
     e.preventDefault();
     try {
       const { data } = await axios.put(
-        '/api/users/profile',
+        '/api/users/userProfile',
         {
           name,
           email,
           password,
+          confirmPassword
         },
         {
           headers: { Authorization: `Bearer ${userInfo.token}` },
