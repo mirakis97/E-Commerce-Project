@@ -21,3 +21,22 @@ You may also see any lint errors in the console.
 **User:**  user@example.com : 12345678
 
 
+## Screenshots
+
+<p align="center">
+<img src="https://res.cloudinary.com/dck6iktyj/image/upload/v1660491765/Test/2022-08-14_sqawsn.png" />
+
+<img src="https://res.cloudinary.com/dck6iktyj/image/upload/v1660491765/Test/2022-08-14_2_oacw6l.png" />
+
+<img src="https://res.cloudinary.com/dck6iktyj/image/upload/v1660491766/Test/2022-08-14_4_ynr9oi.png" />
+
+<img src="https://res.cloudinary.com/dck6iktyj/image/upload/v1660491848/Test/2022-08-14_10_svvavr.png" />
+
+<img src="https://res.cloudinary.com/dck6iktyj/image/upload/v1660491765/Test/2022-08-14_1_vs6cro.png" />
+
+<img src="https://res.cloudinary.com/dck6iktyj/image/upload/v1660491765/Test/2022-08-14_5_cfl9x1.png" />
+
+<img src="https://res.cloudinary.com/dck6iktyj/image/upload/v1660491765/Test/2022-08-14_6_toejlg.png" />
+
+<img src="https://res.cloudinary.com/dck6iktyj/image/upload/v1660491765/Test/2022-08-14_7_udevz4.png" />
+</p>
