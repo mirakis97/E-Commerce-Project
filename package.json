@@ -4,6 +4,8 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "scripts": {
+    "build": "cd server && npm install && cd ../front-end && npm install && npm run build",
+    "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/mirakis97/E-Commerce-Project/issues"
   },
-  "homepage": "https://github.com/mirakis97/E-Commerce-Project#readme"
+  "homepage": "https://github.com/mirakis97/E-Commerce-Project#readme",
+  "dependencies": {
+    "firebase": "^9.9.2"
+  }
 }
